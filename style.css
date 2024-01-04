@@ -1,0 +1,90 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: url('hansraj.jpg') center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(90, 118, 209, 0.5);
+  position: relative; 
+}
+
+header {
+  text-align: center;
+  align-self: baseline;
+  color: #fff;
+}
+
+#tribute-info {
+  background: rgba(255, 255, 255, 0.3); 
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 800px;
+  margin: -20px 0 20px -550px; 
+  overflow: hidden;
+}
+
+#tribute-info img {
+  width: 100%;
+  border-radius: 10px;
+  
+}
+
+#tribute-info div {
+  margin-left: 20px;
+}
+
+#tribute-info h2 {
+  color: #000;
+  text-align: left; 
+}
+
+#tribute-quotes {
+  background: rgba(255, 255, 255, 0.8); 
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 800px;
+  margin: 20px 0 20px 20px; 
+  text-align: center;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#tribute-quotes blockquote {
+  font-size: 20px;
+  color: #000;
+}
+
+#tribute-quotes cite {
+  display: block;
+  margin-top: 10px;
+  font-size: 18px;
+  color: #555;
+}
+
+footer {
+  text-align: center;
+  margin-top: 450px; 
+ 
+  color: #fff;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
